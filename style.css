@@ -1,0 +1,108 @@
+div {
+	padding: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #efefef;
+	-moz-box-shadow:    1px 1px 2px 2px #ccc;
+	-webkit-box-shadow: 1px 1px 2px 2px #ccc;
+	box-shadow:         1px 1px 2px 1px #ccc;
+}
+object {
+    padding: 5px;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: smaller;
+    padding: 50px;
+    color: #555;
+    width: 650px;
+}
+
+h1 {
+    letter-spacing: 6px;
+    font-size: 1.6em;
+    color: #be7429;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    letter-spacing: 6px;
+    font-size: 1.4em;
+    color: #be7429;
+    font-weight: normal;
+    width: 450px;
+}
+
+table {
+    padding: 0px;
+    border-spacing: 10px;
+    background-color: #eff0ef;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+tbody {
+    vertical-align: top;
+}
+td {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    background: #fefef0;
+    -moz-box-shadow:    1px 1px 2px 0px #ccc;
+    -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+    box-shadow:         1px 1px 5px 0px #ccc;
+}
+
+img {
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow:    1px 1px 2px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+    box-shadow:         1px 1px 2px 1px #ccc;
+}
+
+iframe {
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow:    1px 1px 2px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+    box-shadow:         1px 1px 2px 1px #ccc;
+}
+
+a {
+    color: #be7429;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+code {
+    font-family: monospace;
+    color: #666666;
+}
+
+smallNote {
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+input:focus {
+    background-color: #fbf5c0;
+}
